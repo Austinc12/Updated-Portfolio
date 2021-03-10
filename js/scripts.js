@@ -6,7 +6,7 @@
     (function($) {
     "use strict"; // Start  of use strict
 
-    // Smooth scrfolling using jQuery easing
+    // Smooth scrfolling usi ng jQuery easing
     $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
       if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
         var target = $(this.hash);
